@@ -4,10 +4,12 @@
 // @name        tiktok rechtsklick steuerung
 // @version     1.0
 // @include     *tiktok.com*
-// @require      https://code.jquery.com/jquery-3.2.1.min.js
-// @grant        none
-// @author       Nexarius
-// @version      2
+// @require     https://code.jquery.com/jquery-3.2.1.min.js
+// @grant       none
+// @homepage    https://github.com/Nex4rius/website_scripts
+// @author      Nexarius
+// @description Restore HTML Video controls for Tiktok videos + rightclick now opens context menu for video element directly
+// @version     4
 // ==/UserScript==
 
 var styleSheet = `
