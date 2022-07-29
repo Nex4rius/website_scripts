@@ -11,6 +11,7 @@
 "use strict";
 
 var styleSheet = `
+._aagw,
 ._9AhH0 {
     pointer-events:none !important;
 }
