@@ -1,7 +1,5 @@
-"use strict";
-
 // ==UserScript==
-// @version     5
+// @version     6
 // @author      Nexarius
 // @homepage    https://github.com/Nex4rius/website_scripts
 // @name        tiktok rechtsklick steuerung
@@ -10,6 +8,8 @@
 // @require     https://code.jquery.com/jquery-3.2.1.min.js
 // @include     *tiktok.com*
 // ==/UserScript==
+
+"use strict";
 
 var styleSheet = `
 .tiktok-12azhi0-DivHeaderContainer {
