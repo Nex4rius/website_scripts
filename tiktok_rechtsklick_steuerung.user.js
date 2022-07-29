@@ -1,5 +1,5 @@
 // ==UserScript==
-// @version     6
+// @version     7
 // @author      Nexarius
 // @homepage    https://github.com/Nex4rius/website_scripts
 // @name        tiktok rechtsklick steuerung
@@ -11,17 +11,17 @@
 
 "use strict";
 
-var styleSheet = `
+let styleSheet = `
 .tiktok-12azhi0-DivHeaderContainer {
     z-index:1000000000000 !important;
 }
 `;
 
 (function () {
-  var s = document.createElement('style');
-  s.type = "text/css";
-  s.innerHTML = styleSheet;
-  (document.head || document.documentElement).appendChild(s);
+    let s = document.createElement('style');
+    s.type = "text/css";
+    s.innerHTML = styleSheet;
+    (document.head || document.documentElement).appendChild(s);
 })();
 
 $(document).ready(function() {
