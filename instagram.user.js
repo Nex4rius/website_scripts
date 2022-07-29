@@ -1,11 +1,11 @@
 // ==UserScript==
-// @version     1
+// @version     2
 // @author      Nexarius
 // @homepage    https://github.com/Nex4rius/website_scripts
-// @name        instgram
-// @description remove obstruction for the html image element -> rightclick works now normally again
+// @name        instagram
+// @description remove obstruction for the html image element -> rightclick works now normally again -> fuck you facebook
 
-// @include    *instgram.com*
+// @include    *instagram.com*
 // ==/UserScript==
 
 "use strict";
