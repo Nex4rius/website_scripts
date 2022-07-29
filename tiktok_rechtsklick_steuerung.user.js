@@ -6,7 +6,8 @@
 // @include     *tiktok.com*
 // @require      https://code.jquery.com/jquery-3.2.1.min.js
 // @grant        none
-// @version      1
+// @author       Nexarius
+// @version      2
 // ==/UserScript==
 
 var styleSheet = `
