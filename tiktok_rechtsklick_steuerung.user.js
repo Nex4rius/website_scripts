@@ -1,5 +1,5 @@
 // ==UserScript==
-// @version     7
+// @version     8
 // @author      Nexarius
 // @homepage    https://github.com/Nex4rius/website_scripts
 // @name        tiktok rechtsklick steuerung
@@ -13,7 +13,7 @@
 
 let styleSheet = `
 .tiktok-12azhi0-DivHeaderContainer {
-    z-index:1000000000000 !important;
+    z-index:1000000 !important;
 }
 `;
 
@@ -35,7 +35,7 @@ $(document).ready(function() {
                 video.prop("controls", true);
                 video.css({
                     "position" : "relative",
-                    "z-index" : 99999999
+                    "z-index" : 999999
                 });
                 video.each(function() {
                     const hier = $(this);
