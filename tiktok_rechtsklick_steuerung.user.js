@@ -12,7 +12,7 @@
 "use strict";
 
 let styleSheet = `
-.tiktok-12azhi0-DivHeaderContainer {
+body:not(.hidden) .tiktok-12azhi0-DivHeaderContainer {
     z-index:1000000 !important;
 }
 `;
