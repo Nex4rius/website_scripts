@@ -1,5 +1,5 @@
 // ==UserScript==
-// @version     8
+// @version     9
 // @author      Nexarius
 // @homepage    https://github.com/Nex4rius/website_scripts
 // @name        tiktok rechtsklick steuerung
