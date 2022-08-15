@@ -1,5 +1,5 @@
 // ==UserScript==
-// @version     10
+// @version     11
 // @author      Nexarius
 // @homepage    https://github.com/Nex4rius/website_scripts
 // @name        tiktok rechtsklick steuerung
@@ -7,6 +7,7 @@
 
 // @require     https://code.jquery.com/jquery-3.2.1.min.js
 // @include     *tiktok.com*
+// @exclude     *tiktok.com/search?*
 // ==/UserScript==
 
 "use strict";
