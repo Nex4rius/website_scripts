@@ -11,7 +11,7 @@
 
 "use strict";
 
-let styleSheet = `
+const styleSheet = `
 body:not(.hidden) .tiktok-12azhi0-DivHeaderContainer {
     z-index:1000000 !important;
 }
